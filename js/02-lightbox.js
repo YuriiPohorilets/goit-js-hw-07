@@ -22,5 +22,5 @@ refs.gallery.insertAdjacentHTML('afterbegin', makeGalleryList);
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
-  captionType: 'alt',
+  captionPosition: 'bottom',
 });
